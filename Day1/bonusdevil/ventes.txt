@@ -1,0 +1,5 @@
+Janvier,500
+Février,600
+Janvier,750
+Mars,800
+Février,900

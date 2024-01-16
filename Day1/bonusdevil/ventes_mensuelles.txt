@@ -1,0 +1,3 @@
+Mars,800
+Février,1500
+Janvier,1250

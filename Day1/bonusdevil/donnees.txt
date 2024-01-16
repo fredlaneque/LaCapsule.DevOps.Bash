@@ -1,0 +1,5 @@
+Nom,Prenom,Valeur
+John,Doe,75
+Jane,Smith,110
+Bob,Johnson,90
+Alice,Williams,120

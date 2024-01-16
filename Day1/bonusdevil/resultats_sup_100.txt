@@ -1,0 +1,3 @@
+Nom,Prenom,Valeur
+Jane,Smith,110
+Alice,Williams,120
