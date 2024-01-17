@@ -17,7 +17,7 @@ dbUser="fred"
 dbName="autodump"
 
 # Exporter la table
-pg_dump -U $dbUser -d $dbName -t $tableName -f $dumpFilename
+pg_dump -U $dbUser -h localhost -d $dbName -t $tableName -f $dumpFilename
 
 # Verifier l'export
 if [ $? -eq 0 ]; then
