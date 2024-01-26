@@ -7,7 +7,7 @@
 HOSTS_FILE="hosts.txt"
 #
 # E-mail pour les notifications
-EMAIL=""
+EMAIL="justdoit08@hotmail.fr"
 #
 # Fonction pour vérifier la disponibilité d'un hôte
 check_host() {
@@ -17,7 +17,7 @@ check_host() {
     else
         echo "$1 est hors ligne."
         # Envoyer une notification par e-mail
-        echo "$1 est hors ligne" | mail -s "Alerte Hôte Hors Ligne" $EMAIL
+        echo "$1 est hors ligne" | mail -s "Alerte Hôte Hors Ligne" $EMAIL >> log.txt
     fi
 }
 #
